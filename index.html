@@ -9,14 +9,17 @@
         p{
             color:purple;
             background-color: green;
-        }      
+        }     
+        span{
+            color: red;
+        } 
     </style>
     <link rel="stylesheet" href="csstut.css">
 
 </head>
 <body>
     <h3>This is css tutorial</h3>
-    <p style="color:red; background-color: blue;"> THis is colour basics</p>
+    <p style="color:red; background-color: blue ;>THis is colour basics</p>
     <p>this is colour due to style tag in head</p>
 </body>
 </html>
@@ -40,11 +43,25 @@
         #firstpara{color:red}
         .bgblue{color: yellow;background-color: blue;}
         footer,span{background-color: pink;}
+        .container{
+            background-image: url(bg.jpg);
+        }
+        ul{
+            list-style-type: square;
+            background-color: grey;
+        }
     </style>
 </head>
 <body>
     <p id="firstpara">this is first paragraph</p>
     <p class="bgblue">this is second paragraph</p>
+    <div class="container">
+        <h4>This is a unordered list</h4>
+        <ul>
+            This is one of the part.
+            this is second of the parts.
+        </ul>
+    </div>
     <span>this is span</span>
     <footer>this is footer</footer>
 </body>
